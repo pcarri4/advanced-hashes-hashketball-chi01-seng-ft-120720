@@ -166,5 +166,19 @@ def team_names
   return array
 end
 
+def player_numbers(team_name)
+  array = []
+  game_hash.each do |team_side, team_info|
+    if team_info[:team_name] == team_name
+      team_info[:players].each do |num|
+        array << num[:number]
+      end
+    end
+  end
+  array
+end
+
+
+
     
   
