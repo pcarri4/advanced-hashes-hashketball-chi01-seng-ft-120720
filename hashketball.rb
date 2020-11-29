@@ -154,6 +154,8 @@ def team_colors(team_name)
   find_results = game_hash.find do |team_side, team_info|
     team_info[:team_name] == team_name
   end
+  team_hash = find_results[1]
+  team_hash[:colors]
 end
 
 
