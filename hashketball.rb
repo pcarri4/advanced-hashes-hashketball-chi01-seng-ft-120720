@@ -133,5 +133,18 @@ def player_stats(player)
   
   
   game_hash.each do |home_or_away, team_hash|
+    team_hash[:players].each do |stats|
+      if stats[:player_name] == player 
+        return stats 
+      end
+    end
+  end
+  
+end
+
+
+
+
+
     
   
