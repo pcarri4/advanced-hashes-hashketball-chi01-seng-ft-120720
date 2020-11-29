@@ -126,6 +126,8 @@ def game_hash
   }
 end
 
+require pry 
+
 def player_stats(player)
   game_hash
   
