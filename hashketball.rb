@@ -150,6 +150,10 @@ def shoe_size(player_name)
   end
 end
 
+def team_colors(team_name)
+  find_results = game_hash.find do |team_side, team_info|
+end
+
 
     
   
