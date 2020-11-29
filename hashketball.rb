@@ -1,4 +1,4 @@
-# Write your code below game_hash
+
 def game_hash
   {
     home: {
@@ -126,7 +126,16 @@ def game_hash
   }
 end
 
+require 'pry'
 
+
+def game_hash
+  {
+    home: {
+      
+    }
+  }
+end
 def num_points_scored(player_name)
   game_hash.each do |team_side, team_info|
     team_info[:players].each do |player|
