@@ -158,6 +158,13 @@ def team_colors(team_name)
   team_hash[:colors]
 end
 
+def team_names
+  array = []
+  game_hash.select do |team_side, team_info|
+    array << team_info[:team_name]
+  end
+  return array
+end
 
     
   
