@@ -127,4 +127,9 @@ def game_hash
 end
 
 def player_stats(player)
+  game_hash
+  
+  
+  game_hash.each do |home_or_away, team_hash|
+    
   
