@@ -126,7 +126,7 @@ def game_hash
   }
 end
 
-require 'pry'
+
 
 
 def num_points_scored(player_name)
