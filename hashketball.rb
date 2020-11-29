@@ -126,4 +126,5 @@ def game_hash
   }
 end
 
-# Write code here
+def player_stats(player)
+  
